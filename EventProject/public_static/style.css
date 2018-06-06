@@ -1,0 +1,44 @@
+<style>
+
+
+body { height: 100%;
+width: 90%; }
+/* body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, rgba(254,208,149,1) 100%);
+    overflow: scroll; 
+} */
+
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+div.center {
+    text-align: center;
+
+    width: 200px;
+    height: 300px;
+    border: 5px solid #8AC007;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+</style>
